@@ -1,7 +1,7 @@
 # Group Project #1 – APPetite
 
 # Motivation
-To allow users to order food based on user's current location.
+To allow users to order food based on user's current location, when undecided what to eat.
 
 # Build Status
 HTML in progress
