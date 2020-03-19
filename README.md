@@ -21,5 +21,5 @@ User pays for food.
 Food is delivered.
 
 # API Reference
-GrubHub
-Google maps
+Yelp
+Geolocation
