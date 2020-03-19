@@ -15,7 +15,16 @@ $(document).ready(function() {
 
     $('.eat-button').on('click', function() {
         // currentLocation = `&location=${$('#location-input').val().trim()}`
-
+       
+        var button = $('.eat-button'),
+		spinner = '<span class="spinner"></span>';
+       
+        if (!button.hasClass('loading')) {
+            button.toggleClass('loading').html(spinner);
+        }
+        else {
+            button.toggleClass('loading').html("Load");
+        }
     $.ajax({
         headers: {
            Authorization :'Bearer 4vjsOR6GBTFRdIl44Ji-AMEPHq0n1fyy-Y_iHYDkByXR5JDIl2K1Ni-kGavey75v3Xw0Mmwqrz0Kh1O23pFejvCIO8fiKP5N7zJKeCBEWdyelO1B3BESJhk2gyJtXnYx',
