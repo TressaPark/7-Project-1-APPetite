@@ -68,7 +68,7 @@ p {
 
 
 
-.eatButton {
+.eat-button {
     background-color: black;
     border-radius: 40px;
     color: white;
@@ -84,7 +84,7 @@ p {
     border: none;
 }
 
-.websiteButton {
+.website-button {
     background-color: green;
     border-radius: 40px;
     color: white;
@@ -98,4 +98,8 @@ p {
     font-size: 16px;
     font-weight: 700;
     border: none;
+}
+
+#res-rating {
+    
 }
