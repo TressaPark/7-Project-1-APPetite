@@ -47,13 +47,22 @@ $(document).ready(function() {
             let resMinRating = _.filter(restaurants, function(n) {return n.rating >= 3.5})
             // Random restaurant from the array 'resMinRating'
             let randomRestaurant = resMinRating[Math.floor(Math.random() * resMinRating.length)]
+
+            console.log(randomRestaurant.categories)
+            $('.res-categories').empty()
+
+            randomRestaurant.categories.forEach(category => {
+                let resCategory = `<span>&#8226 ${category.title} </span>`
+                $('.res-categories').append(resCategory)
+            })
+
             
-            // let distToMiles = randomRestaurant.distance * 0.00062137
-            // console.log (distToMiles)
+            let distToMiles = (randomRestaurant.distance * 0.00062137).toString()
+             
 
             let resName = randomRestaurant.name
             let resRating = `<img src="assets/stars/${randomRestaurant.rating}.png">`
-            //let resDistance = `<p>Distance from you: ${distToMiles.substring(0, 3)} Miles</p>`
+            let resDistance = `<p>${distToMiles.substring(0, 3)} miles away</p>`
             
             //let resImg = `<img src="${randomRestaurant.image_url}">`
 
@@ -61,7 +70,7 @@ $(document).ready(function() {
             
             $('#res-name').html(resName)
             $('#res-rating').html(resRating)
-            // $('.res-distance').html(resDistance)
+            $('.res-distance').html(resDistance)
 
 
             //$('.content').html(resImg)
