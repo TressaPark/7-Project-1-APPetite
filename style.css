@@ -56,11 +56,11 @@ p {
 }
 
 .content {
-    background-color: red;
-    width: 90%;
-    height: 100px;
+    /* background-color: red; */
+    width: 75%;
+    height: 180px;
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 50px;
     margin-right: auto;
     border-radius: 40px;
     margin-top: 10px;
@@ -101,10 +101,6 @@ p {
     font-size: 16px;
     font-weight: 700;
     border: none;
-}
-
-#res-rating {
-    
 }
 
 .eat-button::after {
@@ -155,4 +151,25 @@ p {
 }
 @keyframes spin {
 	100% {transform: rotate(360deg)}
+}
+
+/* .res-image {
+    min-height: 170px;
+    max-height: 170px;
+    min-width: 300px;
+    max-width: 300px;
+} */
+.res-img {
+    max-width: 300px;
+    max-height: 190px;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    
+
+}
+
+.waiting {
+    pointer-events: none;
+    opacity: 50%;
 }
