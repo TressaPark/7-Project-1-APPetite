@@ -1,0 +1,300 @@
+/* sam.kim Responsive CSS Stylesheet Description: The goal of this sheet was the create various styles for different device types and orientations with as few queries as possible.  I simplified the queries to the following 5:
+1. mobile portrait
+2. mobile landscape
+3. tablet portrait
+4. tablet landscape
+5. laptops & up
+
+Each of these classes manipulate the following objects:
+container, content, h3, Eat Button, Website Button
+
+/* Mobile Devices -> Portrait Mode */
+
+@media (max-width: 640px) {
+
+.container {
+    background-color: white;
+    text-align: center;
+    border-radius: 40px;
+    color: black;
+    width: 95%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    box-shadow: 5px 10px #888888;
+    -moz-box-shadow: 0 0 5px #1a1a1a;
+    -webkit-box-shadow: 0 0 5px #1a1a1a;
+    box-shadow: 0px 0px 5px #1a1a1a;
+}
+
+.content {
+    width: 75%;
+    height: auto;
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: auto;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 30pt;
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.eat-button {
+    background-color: black;
+    border-radius: 40px;
+    color: white;
+    padding: 10px;
+    height: 64px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    font-size: 36px;
+    font-weight: 700;
+    border: none;
+}
+
+.eat-button:hover {
+    background-color: black;
+    border-radius: 40px;
+}
+
+.eat-button:after {
+    background-color: black;
+    border-radius: 40px;
+}
+
+.eat-button:active {
+    background-color: black;
+    border-radius: 40px;
+}
+
+.website-button {
+    background-color: #00aa35;
+    border-radius: 40px;
+    color: white;
+    padding: 10px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+}
+
+}
+
+/* Mobile Device -> Landscape Mode */
+@media (min-width: 640px) {
+
+}
+
+/* Tablet Device -> Portrait Mode */
+@media (min-width: 768px) {
+
+}
+
+/* Tablet Device -> Landscape Mode */
+@media (min-width: 1024px) {
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 380px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
+      
+.container {
+    background-color: white;
+    text-align: center;
+    border-radius: 40px;
+    color: black;
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 15px;
+    }
+    
+    .content {
+        width: 75%;
+        height: auto;
+        display: inline-block;
+        margin-left: 50px;
+        margin-right: auto;
+        border-radius: 40px;
+        margin-top: 10px;
+    }
+    
+    h3 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 30pt;
+        text-align: left;
+        padding-top: 10px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .eat-button {
+        background-color: black;
+        border-radius: 40px;
+        color: white;
+        padding: 10px;
+        height: 64px;
+        display: block;
+        width: 20%;
+        margin-left: 40%;
+        margin-right: 40%;
+        font-size: 36px;
+        font-weight: 700;
+        border: none;
+        margin-bottom: 30px;
+    }
+    
+    .website-button {
+        background-color: #00aa35;
+        border-radius: 40px;
+        color: white;
+        padding: 10px;
+        width: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        margin-top: 0px;
+        font-size: 16px;
+        font-weight: 700;
+        border: none;
+    }
+
+}
+
+/* Laptops & Up */
+@media (min-width: 1280px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* Styles */
+    }
+    
+    /* Smartphones (landscape) ----------- */
+    @media only screen and (min-width : 321px) {
+    /* Styles */
+    }
+    
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+    /* Styles */
+    }
+    
+    /* iPads (portrait and landscape) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    /* Styles */
+    }
+    
+    /* iPads (landscape) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    /* Styles */
+    }
+    
+    /* iPads (portrait) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    /* Styles */
+    }
+    /**********
+    iPad 3
+    **********/
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
+    }
+    /* Desktops and laptops ----------- */
+    @media only screen  and (min-width : 1224px) {
+    /* Styles */
+
+    h3 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 30pt;
+        margin-left: 30px;
+        padding-top: 10px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+.container {
+    background-color: white;
+    text-align: center;
+    border-radius: 40px;
+    color: black;
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+.content {
+    width: 75%;
+    height: auto;
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: auto;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+
+
+
+    }
+    

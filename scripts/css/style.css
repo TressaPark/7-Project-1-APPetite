@@ -1,0 +1,138 @@
+body {
+    background-color: #ffccca;
+    color: black;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20pt;
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 14pt;
+    margin: 0;
+}
+
+/* Can't Use until GrubHub API is accessible
+.price {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 24pt;
+    margin-left: 30px;
+    padding-top: 20px;
+    margin-top: 0px;
+}
+*/
+
+.container {
+    background-color: white;
+    text-align: center;
+    border-radius: 40px;
+    color: black;
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 15px;
+}
+
+footer {
+    display: block;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 80px;
+}
+
+.content {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+
+.eat-button {
+    background-color: black;
+    border-radius: 40px;
+    color: white;
+    padding: 10px;
+    height: 64px;
+    display: block;
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-weight: 700;
+    border: none;
+}
+
+.eat-button:hover {
+    background-color: black;
+    border-radius: 40px;
+}
+
+.website-button {
+    background-color: #00aa35;
+    border-radius: 40px;
+    color: white;
+    padding: 10px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+}
+
+
+/* .res-image {
+    min-height: 170px;
+    max-height: 170px;
+    min-width: 300px;
+    max-width: 300px;
+} */
+
+.res-img {
+    width: 100%;
+    max-width: 430px;
+    max-height: 250px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.center-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 .res-distance {
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.waiting {
+    pointer-events: none;
+    opacity: 70%;
+    background-color: #CCC;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  } 
