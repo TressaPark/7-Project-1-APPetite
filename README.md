@@ -29,7 +29,7 @@
     * Agile software development
 
 ## Comprehension Check
-    To be employer-ready, we must be able to answer the following questions:
+    To be employer-ready, our team must be able to answer the following questions:
 
     1. What is agile software development? 
         Agile software development comprises various approaches to software development under which requirements and solutions evolve through the collaborative effort of self-organizing and cross-functional teams and their customer(s)/end user(s). It advocates adaptive planning, evolutionary development, early delivery, and continual improvement, and it encourages rapid and flexible response to change.
@@ -43,20 +43,21 @@
         On the command line, a simple "git merge --abort" will do this for you. In case you've made a mistake while resolving a conflict and realize this only after completing the merge, you can still easily undo it: just roll back to the commit before the merge happened with "git reset --hard " and start over again.
 
 ## Learning Objectives
-    You will be employer-competitive if you are able to:
-    * Speak technically about a feature you implemented in your project
+    Our team will be employer-competitive if we are able to:
+    * Speak technically about a feature we implemented in our project
     * Explain and execute git branching workflow in a collaborative project
     * Resolve merge conflicts
     * Explain agile software development
     * Design, build, and deploy a client-side web application using GitHub Pages
-    * Prepare a professional presentation and repository README for your project
+    * Prepare a professional presentation and repository README for our project
 
 ## Helpful Links
     * [Agile Methodology](https://en.wikipedia.org/wiki/Agile_software_development)
     * [Git Branching](https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows)
     * [Learn Enough Git to Be Dangerous](https://www.learnenough.com/git-tutorial/getting_started)
     
-    Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, like # or *.
+## Markdown
+    Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things that can be done with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, like # or *.
 
     You can use Markdown most places around GitHub:
 
