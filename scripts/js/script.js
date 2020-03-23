@@ -1,4 +1,3 @@
-$('.container').hide()
 $(document).ready(function() {
 
     $('body').addClass('waiting')
@@ -18,18 +17,6 @@ $(document).ready(function() {
 
         $('.eat-button').on('click', function() {
             $('body').addClass('waiting')
-            // currentLocation = `&location=${$('.location-input').val().trim()}`
-            // $('.eat-button').addClass('scale-out')
-        
-            // var button = $('.eat-button'),
-            // spinner = '<span class="spinner"></span>';
-        
-            // if (!button.hasClass('loading')) {
-            //     button.toggleClass('loading').html(spinner);
-            // }
-            // else {
-            //     button.toggleClass('loading').html("Load");
-            // }
 
             $.ajax({
                 headers: {
@@ -83,7 +70,8 @@ $(document).ready(function() {
                     $('.res-image').html(resImage)
 
                     getResURL(randomRestaurant)
-
+                    $('.initial').addClass('scale-out')
+                    $('.initial').hide()
                     $('.container').show()
                     $('.container').addClass('scale-in')
                     $('body').removeClass('waiting')
@@ -105,8 +93,3 @@ $(document).ready(function() {
     })
 //End of script    
 })
-
-
-
-
-
