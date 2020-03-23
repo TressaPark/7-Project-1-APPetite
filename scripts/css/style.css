@@ -1,0 +1,141 @@
+body {
+    background-color: #ffccca;
+    color: black;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Can't Use until GrubHub API is accessible
+.price {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 24pt;
+    margin-left: 30px;
+    padding-top: 20px;
+    margin-top: 0px;
+}
+*/
+
+.title-bar {
+    width: 100%;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    display: block;
+    vertical-align: middle;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 6px;
+}
+
+.container {
+    background-color: black;
+    border-radius: 10px;
+    color: black;
+}
+
+footer {
+    display: block;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer img {
+    display: block;
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.eat-button:hover {
+    background-color: #f47c20;
+    border-radius: 40px;
+    color: white;
+    height: 64px;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.eat-button {
+    background-color: black;
+    border-radius: 40px;
+    color: white;
+    height: 64px;
+    display: block;
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.website-button {
+    background-color: #00aa35;
+    border-radius: 40px;
+    color: white;
+    height: 64px;
+    display: block;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.website-button:hover {
+    background-color: #f47c20;
+    border-radius: 40px;
+    color: white;
+    height: 64px;
+    display: block;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+/* .res-image {
+    min-height: 170px;
+    max-height: 170px;
+    min-width: 300px;
+    max-width: 300px;
+} */
+
+
+.res-rating {
+    margin: 20px;
+}
+
+.res-categories {
+    font-size: 24px;
+    margin: 10px;
+}
+
+.res-distance {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 36pt;
+    color: #f47c20;
+    margin: 9px;
+}
+
+.waiting {
+    pointer-events: none;
+    opacity: 70%;
+    background-color: #797979;
+}
