@@ -60,7 +60,7 @@ h3 {
     width: 400px;
     font-size: 36px;
     font-weight: 700;
-    border: none;
+    border: 2px solid black;
 }
 
 .eat-button:hover {
@@ -170,7 +170,7 @@ p {
         margin-right: 40%;
         font-size: 36px;
         font-weight: 700;
-        border: none;
+        border: 2px solid black;
         margin-bottom: 40px;
     }
     
