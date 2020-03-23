@@ -109,6 +109,14 @@ h3 {
 /* Tablet Device -> Landscape Mode */
 @media (min-width: 1024px) {
 
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 14pt;
+    margin: 0;
+}
+
+
 .logo {
     display: block;
     margin-left: auto;
@@ -120,7 +128,7 @@ h3 {
       
 .container {
     background-color: white;
-    text-align: center;
+    text-align: left;
     border-radius: 40px;
     color: black;
     width: 50%;
@@ -131,15 +139,14 @@ h3 {
     padding: 15px;
     }
     
-    .content {
-        width: 75%;
-        height: auto;
-        display: inline-block;
-        margin-left: 50px;
-        margin-right: auto;
-        border-radius: 40px;
-        margin-top: 10px;
-    }
+.content {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    margin-right: auto;
+    border-radius: 40px;
+    margin-top: 10px;
+}
     
     h3 {
         font-family: 'Roboto', sans-serif;
@@ -152,7 +159,7 @@ h3 {
     }
     
     .eat-button {
-        background-color: black;
+        background-color: black!important;
         border-radius: 40px;
         color: white;
         padding: 10px;
@@ -164,7 +171,7 @@ h3 {
         font-size: 36px;
         font-weight: 700;
         border: none;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
     }
     
     .website-button {
@@ -176,11 +183,21 @@ h3 {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
-        margin-top: 0px;
+        width: 20%;
+        margin-left: 40%;
+        margin-right: 40%;
+        margin-top: 20px;
         font-size: 16px;
         font-weight: 700;
         border: none;
+    }
+
+    .res-img {
+        max-width: 500px;
+        max-height: 290px;
+        height: auto;
+        position: relative;
+        border-radius: 5px;
     }
 
 }

@@ -32,7 +32,6 @@ p {
 
 .container {
     background-color: white;
-    text-align: center;
     border-radius: 40px;
     color: black;
     width: 50%;
@@ -40,18 +39,18 @@ p {
     display: block;
     margin-left: 25%;
     margin-right: 25%;
-    padding: 15px;
 }
 
 footer {
     display: block;
-    position: fixed;
+    position: relative;
     text-align: center;
     width: 100%;
     bottom: 0px;
     left: 0px;
     right: 0px;
-    margin-bottom: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .content {
@@ -62,8 +61,7 @@ footer {
     margin-top: 10px;
 }
 
-.eat-button {
-    background-color: black;
+.eat-button:hover {
     border-radius: 40px;
     color: white;
     padding: 10px;
@@ -72,16 +70,24 @@ footer {
     margin-bottom: 40px;
     font-size: 36px;
     font-weight: 700;
-    border: none;
+    border: 2px solid #f47c20;
 }
 
-.eat-button:hover {
-    background-color: black;
+.eat-button {
+    background-color: black!important;
     border-radius: 40px;
+    color: white;
+    padding: 10px;
+    height: 64px;
+    display: block;
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-weight: 700;
+    border: 2px solid black;
 }
 
 .website-button {
-    background-color: #00aa35;
+    background-color: #f47c20;
     border-radius: 40px;
     color: white;
     padding: 10px;
@@ -96,7 +102,6 @@ footer {
     border: none;
 }
 
-
 /* .res-image {
     min-height: 170px;
     max-height: 170px;
@@ -105,7 +110,6 @@ footer {
 } */
 
 .res-img {
-    width: 100%;
     max-width: 430px;
     max-height: 250px;
     height: auto;
