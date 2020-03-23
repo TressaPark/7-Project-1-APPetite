@@ -70,7 +70,6 @@ $(document).ready(function() {
                     $('.res-image').html(resImage)
 
                     getResURL(randomRestaurant)
-                    $('.initial').addClass('scale-out')
                     $('.initial').hide()
                     $('.container').show()
                     $('.container').addClass('scale-in')

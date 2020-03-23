@@ -118,80 +118,229 @@ h3 {
 
 }
 
-
-
 /* Mobile Device -> Landscape Mode */
 @media (min-width: 640px) {
 
-    
-p {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 14pt;
-    margin: 0;
-}
-
-
-.logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 380px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    }
-      
-.container {
-    background-color: black;
-    border-radius: 10px;
-    color: black;
-    width: 20%;
-    margin-left: 40%;
-    margin-right: 40%;
-    height: auto;
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 14pt;
+        margin: 0;
     }
     
-h3 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    font-size: 64pt;
-}
     
-.eat-button {
-    background-color: black;
-    border-radius: 40px;
-    color: white;
-    height: 64px;
-    display: block;
-    width: 20%;
-    margin-left: 40%;
-    margin-right: 40%;
-    font-size: 36px;
-    font-weight: 700;
-    margin-bottom: 30px;
-}
+    .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 380px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        }
+          
+    .container {
+        background-color: white;
+        border-radius: 10px;
+        color: black;
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        height: auto;
+        display: block;
+        padding: 10px;
+        }
+        
+    h3 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        font-size: 64pt;
+    }
+        
+    .eat-button {
+        background-color: black;
+        border-radius: 40px;
+        color: white;
+        height: 64px;
+        display: block;
+        width: 20%;
+        margin-left: 40%;
+        margin-right: 40%;
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    
+    
+    .res-img {
+        min-width: 400px;
+        max-width: 500px;
+        max-height: 300px;
+        height: auto;
+        position: relative;
+        left: 0;
+        border-radius: 5px;
+        margin: 14px;
+    }
+    
+    .res-name {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        font-size: 42pt;
+    }
+    
+    .website-button {
+        background-color: #00aa35;
+        border-radius: 40px;
+        color: white;
+        height: 40px;
+        display: block;
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 20%;
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    
+    .website-button:hover {
+        background-color: #f47c20;
+        border-radius: 40px;
+        color: white;
+        display: block;
+        margin-bottom: 30px;
+    }
+    
+    
+    h3 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 30pt;
+            margin-left: 30px;
+            padding-top: 10px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+    
+    
+    .content {
+        width: 75%;
+        height: auto;
+        display: inline-block;
+        margin-left: 50px;
+        margin-right: auto;
+        border-radius: 40px;
+        margin-top: 10px;
+    }    
 
-
-.res-img {
-    max-width: 500px;
-    max-height: 300px;
-    height: auto;
-    position: relative;
-    left: 0;
-    border-radius: 5px;
-    margin: 14px;
-}
-
-.res-name {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    font-size: 42pt;
-}
 
 }
 
 /* Tablet Device -> Portrait Mode */
 @media (min-width: 768px) {
+
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 14pt;
+        margin: 0;
+    }
+    
+    .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        }
+          
+    .container {
+        border-radius: 10px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: auto;
+        padding: 10px;
+        }
+        
+    h3 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        font-size: 26pt;
+    }
+    
+    .title-bar {
+        width: 100%;
+        border-radius: 12px;
+        background-color: black;
+        color: white;
+        display: block;
+        vertical-align: middle;
+        font-family: 'Roboto', sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        padding: 6px;
+    }
+        
+    .eat-button {
+        background-color: black;
+        border-radius: 40px;
+        color: white;
+        height: 64px;
+        display: block;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    
+    .eat-button:hover {
+        background-color: #f47c20;
+        border-radius: 40px;
+        color: white;
+        display: block;
+        margin-bottom: 30px;
+    }
+    
+    .res-img {
+        max-width: 80%;
+        height: auto;
+        position: relative;
+        left: 0;
+        border-radius: 5px;
+        margin: 14px;
+    }
+    
+    .res-name {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        font-size: 32pt;
+        text-align: center;
+    }
+    
+    .website-button {
+        background-color: #00aa35;
+        border-radius: 40px;
+        color: white;
+        height: 40px;
+        display: block;
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    
+    .website-button:hover {
+        background-color: #f47c20;
+        border-radius: 40px;
+        color: white;
+        display: block;
+        margin-bottom: 30px;
+    }
 
 }
 
@@ -216,13 +365,15 @@ p {
     }
       
 .container {
-    background-color: black;
+    background-color: white;
     border-radius: 10px;
     color: black;
-    width: 20%;
-    margin-left: 40%;
-    margin-right: 40%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
     height: auto;
+    display: block;
+    padding: 10px;
     }
     
 h3 {
@@ -271,7 +422,7 @@ h3 {
     display: block;
     width: 40%;
     margin-left: 30%;
-    margin-right: 30%;
+    margin-right: 20%;
     font-size: 16px;
     font-weight: 700;
     margin-bottom: 30px;
@@ -286,80 +437,7 @@ h3 {
 }
 
 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    /* Styles */
-    }
-    
-    /* Smartphones (landscape) ----------- */
-    @media only screen and (min-width : 321px) {
-    /* Styles */
-    }
-    
-    /* Smartphones (portrait) ----------- */
-    @media only screen and (max-width : 320px) {
-    /* Styles */
-    }
-    
-    /* iPads (portrait and landscape) ----------- */
-    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    /* Styles */
-    }
-    
-    /* iPads (landscape) ----------- */
-    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-    /* Styles */
-    }
-    
-    /* iPads (portrait) ----------- */
-    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-    /* Styles */
-    }
-    /**********
-    iPad 3
-    **********/
-    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
-    /* Styles */
-    }
-    
-    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
-    /* Styles */
-    }
-    /* Desktops and laptops ----------- */
-    @media only screen  and (min-width : 1224px) {
-    /* Styles */
-
-    h3 {
+h3 {
         font-family: 'Roboto', sans-serif;
         font-weight: 700;
         font-size: 30pt;
@@ -369,18 +447,6 @@ h3 {
         margin-bottom: 0px;
     }
 
-.container {
-    background-color: white;
-    text-align: center;
-    border-radius: 40px;
-    color: black;
-    width: 80%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 15px;
-}
 
 .content {
     width: 75%;
@@ -392,7 +458,4 @@ h3 {
     margin-top: 10px;
 }
 
-
-
-    }
-    
+}
