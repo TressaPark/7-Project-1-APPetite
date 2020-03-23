@@ -69,7 +69,7 @@ $(document).ready(function() {
                     
                     let resName = randomRestaurant.name
                     let resRating = `<img src="assets/stars/${randomRestaurant.rating}.png">`
-                    let resDistance = `<p>${milesFormatted} miles away</p>`
+                    let resDistance = `<h3>${milesFormatted} miles away</h3>`
                     let resImage = `<img class="res-img z-depth-2 center" src="${randomRestaurant.image_url}">`
                     $('.res-categories').empty()
                     randomRestaurant.categories.forEach(category => {
