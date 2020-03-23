@@ -12,10 +12,77 @@ container, content, h3, Eat Button, Website Button
 
 @media (max-width: 640px) {
 
+    
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 14pt;
+    margin: 0;
+}
+
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
+      
 .container {
     background-color: white;
-    border-radius: 40px;
+    border-radius: 10px;
     color: black;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: auto;
+    }
+    
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 30pt;
+}
+    
+.eat-button {
+    background-color: black;
+    border-radius: 40px;
+    color: white;
+    height: 64px;
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.eat-button:hover {
+    background-color: #f47c20;
+    border-radius: 40px;
+    color: white;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.res-img {
+    max-width: 500px;
+    max-height: 300px;
+    height: auto;
+    position: relative;
+    left: 0;
+    border-radius: 5px;
+    margin: 14px;
+}
+
+.res-name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 42pt;
+}
 
 }
 
@@ -25,6 +92,71 @@ container, content, h3, Eat Button, Website Button
 
 /* Mobile Device -> Landscape Mode */
 @media (min-width: 640px) {
+
+    
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 14pt;
+    margin: 0;
+}
+
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 380px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
+      
+.container {
+    background-color: black;
+    border-radius: 10px;
+    color: black;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    height: auto;
+    }
+    
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 64pt;
+}
+    
+.eat-button {
+    background-color: black;
+    border-radius: 40px;
+    color: white;
+    height: 64px;
+    display: block;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+
+.res-img {
+    max-width: 500px;
+    max-height: 300px;
+    height: auto;
+    position: relative;
+    left: 0;
+    border-radius: 5px;
+    margin: 14px;
+}
+
+.res-name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 42pt;
+}
 
 }
 
@@ -54,12 +186,12 @@ p {
     }
       
 .container {
-    background-color: white;
+    background-color: black;
     border-radius: 10px;
     color: black;
-    width: 40%;
-    margin-left: 30%;
-    margin-right: 30%;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
     height: auto;
     }
     
@@ -82,6 +214,7 @@ h3 {
     font-weight: 700;
     margin-bottom: 30px;
 }
+
 
 .res-img {
     max-width: 500px;
