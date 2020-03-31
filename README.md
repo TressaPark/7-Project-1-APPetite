@@ -1,4 +1,4 @@
-# Group Project #1 – APPetite
+# 7 Project #1 – APPetite
 
 ## Overview
     Our team (Eddie, Jules, Sam, and Tressa) conceived of and executed a design that solves a real-world problem by integrating data received from multiple server-side API requests. We learned agile development methodologies and implemented features and bug fixes using the git branch workflow and pull requests.
